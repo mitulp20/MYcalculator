@@ -23,6 +23,7 @@
 		1838772617A19CD600BB9233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1838770117A19CD600BB9233 /* Foundation.framework */; };
 		1838772E17A19CD600BB9233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1838772C17A19CD600BB9233 /* InfoPlist.strings */; };
 		1838773117A19CD600BB9233 /* MycalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838773017A19CD600BB9233 /* MycalculatorTests.m */; };
+		1838773B17A1C0E900BB9233 /* IMG_3543.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1838773A17A1C0E900BB9233 /* IMG_3543.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		1838772D17A19CD600BB9233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1838772F17A19CD600BB9233 /* MycalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MycalculatorTests.h; sourceTree = "<group>"; };
 		1838773017A19CD600BB9233 /* MycalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MycalculatorTests.m; sourceTree = "<group>"; };
+		1838773A17A1C0E900BB9233 /* IMG_3543.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3543.JPG; path = ../../IMG_3543.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				1838770E17A19CD600BB9233 /* AppDelegate.h */,
 				1838770F17A19CD600BB9233 /* AppDelegate.m */,
 				1838771717A19CD600BB9233 /* ViewController.h */,
+				1838773A17A1C0E900BB9233 /* IMG_3543.JPG */,
 				1838771817A19CD600BB9233 /* ViewController.m */,
 				1838771A17A19CD600BB9233 /* ViewController.xib */,
 				1838770617A19CD600BB9233 /* Supporting Files */,
@@ -236,6 +239,7 @@
 				1838771417A19CD600BB9233 /* Default@2x.png in Resources */,
 				1838771617A19CD600BB9233 /* Default-568h@2x.png in Resources */,
 				1838771C17A19CD600BB9233 /* ViewController.xib in Resources */,
+				1838773B17A1C0E900BB9233 /* IMG_3543.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mycalculator/Mycalculator-Prefix.pch";
 				INFOPLIST_FILE = "Mycalculator/Mycalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mycalculator/Mycalculator-Prefix.pch";
 				INFOPLIST_FILE = "Mycalculator/Mycalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
